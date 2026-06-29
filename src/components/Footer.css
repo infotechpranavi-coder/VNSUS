@@ -1,0 +1,100 @@
+.footer {
+  background-color: var(--primary-blue-dark);
+  color: var(--white);
+  padding-top: 4rem;
+  border-top: 4px solid;
+  border-image: linear-gradient(to right, var(--primary-blue), var(--primary-cyan)) 1;
+  position: relative;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.footer-logo .logo-lifesciences {
+  color: var(--primary-cyan);
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px rgba(0, 180, 216, 0.4);
+}
+
+.footer-description {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  max-width: 300px;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-heading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--primary-cyan);
+  box-shadow: 0 0 8px rgba(0, 180, 216, 0.6);
+}
+
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+  transition: var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--white);
+  padding-left: 8px;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.footer-contact li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+
+.footer-contact li:hover {
+  color: var(--white);
+}
+
+.footer-contact svg {
+  margin-right: 1rem;
+  color: var(--primary-cyan);
+  flex-shrink: 0;
+  margin-top: 3px;
+  filter: drop-shadow(0 0 5px rgba(0, 180, 216, 0.5));
+}
+
+.footer-bottom {
+  background-color: #00122e; /* Even darker blue */
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
