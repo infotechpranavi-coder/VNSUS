@@ -91,7 +91,7 @@ const Home = () => {
             <PackageCheck size={34} />
           </div>
           <span className="section-eyebrow">Product portfolio</span>
-          <h2 className="section-title">Explore our focused healthcare brands</h2>
+          <h2 className="section-title">Explore our focused <span className="text-gradient">healthcare brands</span></h2>
           <p className="section-text">
             View sample CNS and nutraceutical product concepts that reflect VNSUS Lifesciences' quality-led, patient-focused approach.
           </p>

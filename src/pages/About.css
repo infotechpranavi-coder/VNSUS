@@ -159,7 +159,7 @@
 }
 
 .mission-section {
-  background: linear-gradient(180deg, #f4f9ff 0%, #ffffff 100%);
+  background: #ffffff;
 }
 
 .mission-grid {
@@ -286,7 +286,7 @@
 }
 
 .timeline-text {
-  color: #475569;
+  color: var(--text-light);
 }
 
 @media screen and (max-width: 992px) {
@@ -316,7 +316,7 @@
 }
 
 .about-products-cta {
-  background: linear-gradient(180deg, #ffffff 0%, #f4f9ff 100%);
+  background: #ffffff;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }

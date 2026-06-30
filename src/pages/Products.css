@@ -110,7 +110,6 @@
   width: min(94%, 260px);
   aspect-ratio: 5 / 4;
   object-fit: contain;
-  filter: drop-shadow(0 18px 22px rgba(0, 74, 159, 0.18));
 }
 
 .product-shadow {
@@ -291,7 +290,7 @@
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  color: #334155;
+  color: var(--text-dark);
   font-weight: 600;
 }
 
