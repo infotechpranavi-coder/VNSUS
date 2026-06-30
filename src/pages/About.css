@@ -412,3 +412,261 @@
   z-index: 1;
 }
 
+/* ── MISSION HEADER ── */
+.mission-header {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+}
+
+/* ── MISSION BULLET POINTS ── */
+.mission-points {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mission-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--primary-blue-dark);
+  font-weight: 500;
+}
+
+.mission-points li svg {
+  color: var(--primary-cyan);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.mission-points-light li {
+  color: rgba(255,255,255,0.9);
+}
+
+.mission-points-light li svg {
+  color: var(--primary-cyan);
+}
+
+/* ── ABOUT CHECKLIST ── */
+.about-checklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.about-checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  color: var(--primary-blue-dark);
+  font-size: 0.97rem;
+  font-weight: 500;
+}
+
+.about-checklist li svg {
+  color: var(--primary-cyan);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ── IMAGE SIDE STATS ── */
+.image-side-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.side-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: #ffffff;
+  border: 1px solid var(--primary-cyan);
+  border-left: 4px solid var(--primary-cyan);
+  border-radius: 12px;
+  padding: 0.85rem 1.2rem;
+  transition: all 0.25s ease;
+}
+
+.side-stat:hover {
+  border-color: var(--primary-blue);
+  transform: translateX(4px);
+}
+
+.side-stat > svg {
+  color: var(--primary-blue);
+  flex-shrink: 0;
+}
+
+.side-stat div {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-stat strong {
+  color: var(--primary-blue-dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.side-stat span {
+  color: var(--text-light);
+  font-size: 0.82rem;
+}
+
+/* ── THERAPEUTIC SECTION ── */
+.therapeutic-section {
+  background: #ffffff;
+}
+
+.therapeutic-header {
+  max-width: 700px;
+  margin: 0 auto 3.5rem;
+}
+
+.therapeutic-sub {
+  max-width: 580px;
+  margin: 0.75rem auto 0;
+}
+
+.therapeutic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.therapeutic-card {
+  background: #ffffff;
+  border: 1px solid var(--primary-cyan);
+  border-top: 4px solid var(--primary-cyan);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.therapeutic-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary-blue);
+  border-top-color: var(--primary-blue);
+}
+
+.therapeutic-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(0,180,216,0.12), rgba(0,74,159,0.08));
+  border: 1px solid rgba(0,180,216,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-blue);
+  margin-bottom: 1.4rem;
+}
+
+.nutra-icon {
+  background: linear-gradient(135deg, rgba(0,74,159,0.12), rgba(0,180,216,0.08));
+}
+
+.therapeutic-card h3 {
+  color: var(--primary-blue-dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.therapeutic-card p {
+  color: var(--text-light);
+  font-size: 0.97rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+.therapeutic-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.therapeutic-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--primary-blue-dark);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.therapeutic-list li svg {
+  color: var(--primary-cyan);
+  flex-shrink: 0;
+}
+
+/* ── OPERATIONS SECTION ── */
+.operations-section {
+  background: #ffffff;
+}
+
+.ops-sub {
+  max-width: 620px;
+  margin: 0.75rem auto 3.5rem;
+}
+
+.ops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.ops-card {
+  background: #ffffff;
+  border: 1px solid var(--primary-cyan);
+  border-top: 4px solid var(--primary-cyan);
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.ops-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-blue);
+  border-top-color: var(--primary-blue);
+}
+
+.ops-icon {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.ops-card h3 {
+  color: var(--primary-blue-dark);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.ops-card p {
+  color: var(--text-light);
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+/* ── RESPONSIVE ── */
+@media screen and (max-width: 992px) {
+  .therapeutic-grid { grid-template-columns: 1fr; }
+}
+
+@media screen and (max-width: 768px) {
+  .image-side-stats { display: none; }
+}
+
+
