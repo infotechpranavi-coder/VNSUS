@@ -1,0 +1,17 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="36" fill="#f4fbff"/>
+  <ellipse cx="450" cy="604" rx="245" ry="42" fill="#0b4a8f" opacity="0.13"/>
+  <path d="M250 188h318l90 62v305H340l-90-64V188z" fill="#ffffff" stroke="#b7d8f6" stroke-width="4"/>
+  <path d="M568 188l90 62H340l-90-62h318z" fill="#e7fbf8" stroke="#b7d8f6" stroke-width="4"/>
+  <path d="M340 250h318v305H340V250z" fill="#ffffff"/>
+  <path d="M340 250h318v80H340V250z" fill="#0f766e"/>
+  <path d="M250 188l90 62v305l-90-64V188z" fill="#ddf7f3"/>
+  <text x="386" y="303" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">VNSUS</text>
+  <text x="382" y="386" font-family="Arial, sans-serif" font-size="47" font-weight="800" fill="#08345f">Cognisure</text>
+  <text x="382" y="436" font-family="Arial, sans-serif" font-size="40" font-weight="800" fill="#0f766e">Plus</text>
+  <text x="386" y="480" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#2474b7">Capsules</text>
+  <circle cx="572" cy="474" r="47" fill="#e3faf5" stroke="#0f766e" stroke-width="5"/>
+  <path d="M547 475c12-39 60-40 62 0 2 36-51 45-62 0z" fill="#0f766e"/>
+  <rect x="188" y="485" width="120" height="44" rx="22" fill="#0f766e" transform="rotate(16 188 485)"/>
+  <rect x="247" y="485" width="60" height="44" rx="22" fill="#ffffff" transform="rotate(16 247 485)" stroke="#b7d8f6"/>
+</svg>

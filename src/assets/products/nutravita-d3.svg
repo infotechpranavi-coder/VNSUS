@@ -1,0 +1,14 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="36" fill="#f4fbff"/>
+  <ellipse cx="452" cy="604" rx="238" ry="42" fill="#0b4a8f" opacity="0.13"/>
+  <rect x="346" y="168" width="208" height="72" rx="18" fill="#00a6c8"/>
+  <rect x="315" y="222" width="270" height="342" rx="54" fill="#ffffff" stroke="#b7d8f6" stroke-width="4"/>
+  <path d="M315 345h270v132H315V345z" fill="#00a6c8"/>
+  <path d="M346 227h80v337h-80c-17 0-31-14-31-31V258c0-17 14-31 31-31z" fill="#e8f8ff" opacity="0.85"/>
+  <text x="372" y="304" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#004a9f">VNSUS</text>
+  <text x="356" y="405" font-family="Arial, sans-serif" font-size="43" font-weight="800" fill="#ffffff">NutraVita-D3</text>
+  <text x="389" y="449" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#eaffff">Softgel capsules</text>
+  <circle cx="452" cy="521" r="36" fill="#fff7d6" stroke="#ffd15c" stroke-width="5"/>
+  <path d="M201 452c32-25 84-8 94 29 8 29-15 54-49 54-45 0-79-47-45-83z" fill="#ffd15c" opacity="0.94"/>
+  <path d="M626 198c36-18 82 8 81 48-1 30-28 51-62 42-43-11-56-67-19-90z" fill="#ffd15c" opacity="0.94"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="36" fill="#f4fbff"/>
+  <ellipse cx="450" cy="604" rx="245" ry="42" fill="#0b4a8f" opacity="0.13"/>
+  <rect x="211" y="199" width="478" height="330" rx="26" fill="#ffffff" stroke="#b7d8f6" stroke-width="4"/>
+  <rect x="211" y="199" width="478" height="86" rx="26" fill="#1d4ed8"/>
+  <rect x="211" y="249" width="478" height="56" fill="#1d4ed8"/>
+  <text x="260" y="256" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">VNSUS</text>
+  <text x="260" y="374" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#08345f">Sleepvia-NT</text>
+  <text x="263" y="421" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#2474b7">Tablets</text>
+  <g transform="translate(278 456)">
+    <rect width="288" height="86" rx="18" fill="#eaf3ff" stroke="#8dbdf5" stroke-width="4"/>
+    <circle cx="52" cy="43" r="22" fill="#ffffff" stroke="#8dbdf5" stroke-width="4"/>
+    <circle cx="116" cy="43" r="22" fill="#ffffff" stroke="#8dbdf5" stroke-width="4"/>
+    <circle cx="180" cy="43" r="22" fill="#ffffff" stroke="#8dbdf5" stroke-width="4"/>
+    <circle cx="244" cy="43" r="22" fill="#ffffff" stroke="#8dbdf5" stroke-width="4"/>
+  </g>
+  <rect x="626" y="165" width="72" height="150" rx="36" fill="#1d4ed8" transform="rotate(22 626 165)"/>
+  <rect x="626" y="240" width="72" height="75" rx="36" fill="#ffffff" transform="rotate(22 626 240)" stroke="#b7d8f6"/>
+</svg>

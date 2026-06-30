@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Beaker, Handshake, HeartPulse, ShieldCheck, Target, Users } from 'lucide-react';
 import aboutImage from '../assets/about.png';
 import heroBg from '../assets/hero_bg.png';
@@ -99,6 +100,17 @@ const About = () => {
         </div>
       </section>
 
+
+      <section className="about-products-cta section">
+        <div className="container about-products-panel slide-up">
+          <span className="section-eyebrow">Products</span>
+          <h2>See the brands behind our healthcare focus.</h2>
+          <p>
+            Our product portfolio represents the VNSUS commitment to CNS care, nutraceutical support, quality, and accessibility.
+          </p>
+          <Link to="/products" className="btn btn-primary about-products-btn">View Products</Link>
+        </div>
+      </section>
       <section className="timeline-section section">
         <div className="container">
           <div className="text-center slide-up">

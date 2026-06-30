@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Activity, ShieldPlus, Beaker, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Activity, ShieldPlus, Beaker, CheckCircle2, PackageCheck } from 'lucide-react';
 import heroBg from '../assets/hero_bg.png';
 import aboutImage from '../assets/about.png';
 import './Home.css';
@@ -84,6 +84,22 @@ const Home = () => {
         </div>
       </section>
 
+
+      <section className="products-preview section">
+        <div className="container products-preview-container slide-up">
+          <div className="products-preview-icon">
+            <PackageCheck size={34} />
+          </div>
+          <span className="section-eyebrow">Product portfolio</span>
+          <h2 className="section-title">Explore our focused healthcare brands</h2>
+          <p className="section-text">
+            View sample CNS and nutraceutical product concepts that reflect VNSUS Lifesciences' quality-led, patient-focused approach.
+          </p>
+          <Link to="/products" className="btn btn-primary products-preview-btn">
+            View Products <ArrowRight size={18} className="btn-icon" />
+          </Link>
+        </div>
+      </section>
       {/* About Preview Section */}
       <section className="about-preview section">
         <div className="container about-preview-container">

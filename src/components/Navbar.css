@@ -24,6 +24,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  position: relative;
 }
 
 .navbar-logo {
@@ -62,10 +63,14 @@
 .nav-menu {
   display: flex;
   align-items: center;
+  gap: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-item {
-  margin-left: 2rem;
+  margin: 0;
 }
 
 .nav-links {
@@ -108,10 +113,12 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
+    gap: 0;
     width: 100%;
     position: absolute;
     top: 80px;
     left: -100%;
+    transform: none;
     opacity: 0;
     transition: var(--transition);
     background-color: var(--white);
@@ -132,3 +139,5 @@
     margin: 1.5rem 0;
   }
 }
+
+

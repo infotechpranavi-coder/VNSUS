@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Clock, ExternalLink, Mail, MapPin, Phone, Send } from 'lucide-react';
 import contactBanner from '../assets/hero_bg.png';
 import './Contact.css';
@@ -104,6 +105,15 @@ const Contact = () => {
         </div>
       </section>
 
+
+      <section className="contact-products-cta section">
+        <div className="container contact-products-panel slide-up">
+          <span className="section-eyebrow">Product inquiries</span>
+          <h2>Looking for product information?</h2>
+          <p>Browse the product portfolio first, then contact our team for business, distribution, or product support.</p>
+          <Link to="/products" className="btn btn-primary contact-products-btn">View Products</Link>
+        </div>
+      </section>
       <section className="form-map-section section">
         <div className="container">
           <div className="form-map-grid">

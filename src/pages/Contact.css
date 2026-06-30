@@ -254,3 +254,38 @@
   background: var(--primary-blue);
   border-color: var(--primary-blue);
 }
+
+.contact-products-cta {
+  background: var(--white);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact-products-panel {
+  max-width: 840px;
+  text-align: center;
+  background: #f8fbff;
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  box-shadow: 0 18px 45px rgba(0, 74, 159, 0.08);
+}
+
+.contact-products-panel h2 {
+  color: var(--primary-blue-dark);
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.14;
+  margin-bottom: 1rem;
+}
+
+.contact-products-panel p {
+  max-width: 680px;
+  margin: 0 auto 1.5rem;
+  color: var(--text-light);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.contact-products-btn {
+  border-radius: 8px;
+}
