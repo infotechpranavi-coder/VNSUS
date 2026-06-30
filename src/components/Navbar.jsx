@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
           <Link to="/" className="navbar-logo">
-            <img src="/logo.png" alt="VNSUS Logo" className="navbar-logo-img" />
+            <img src="/logo-transparent.png" alt="VNSUS Logo" className="navbar-logo-img" />
           </Link>
 
         <div className="menu-icon" onClick={toggleMenu}>
@@ -75,3 +75,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

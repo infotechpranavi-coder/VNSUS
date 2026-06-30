@@ -33,10 +33,14 @@
 }
 
 .navbar-logo-img {
-  height: 55px;
+  height: 74px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
+}
+
+.navbar.scrolled .navbar-logo-img {
+  height: 62px;
 }
 
 .navbar-logo-img:hover {
@@ -139,5 +143,6 @@
     margin: 1.5rem 0;
   }
 }
+
 
 

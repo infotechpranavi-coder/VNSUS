@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-col">
           <Link to="/" className="footer-logo">
-            <img src="/logo.png" alt="VNSUS Logo" className="footer-logo-img" />
+            <img src="/logo-transparent.png" alt="VNSUS Logo" className="footer-logo-img" />
           </Link>
           <p className="footer-description">
             A leading people and process-driven pharmaceutical company focused on making healthcare affordable and accessible.
@@ -44,7 +44,7 @@ const Footer = () => {
               <span>
                 Shop No. 9, Chamunda Co-op HSG Society,<br/>
                 Opp. Kongaon Police Chowki,<br/>
-                Kalyan–Bhiwandi Road, Thane – 421311
+                Kalyan-Bhiwandi Road, Thane - 421311
               </span>
             </li>
           </ul>
@@ -60,3 +60,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
