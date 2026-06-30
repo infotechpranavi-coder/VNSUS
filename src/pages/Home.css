@@ -477,3 +477,182 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+/* ── STATS STRIP ── */
+.stats-strip {
+  background: #ffffff;
+  border-top: 1px solid rgba(0, 180, 216, 0.2);
+  border-bottom: 1px solid rgba(0, 180, 216, 0.2);
+  padding: 2.2rem 0;
+}
+
+.stats-strip-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 120px;
+}
+
+.stat-icon {
+  color: var(--primary-cyan);
+  margin-bottom: 0.4rem;
+}
+
+.stat-item strong {
+  color: var(--primary-blue-dark);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.stat-item span {
+  color: var(--text-light);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 52px;
+  background: linear-gradient(to bottom, transparent, var(--primary-cyan), transparent);
+  flex-shrink: 0;
+}
+
+/* ── WHY VNSUS SECTION ── */
+.why-us-section {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.why-us-header {
+  max-width: 680px;
+  margin: 0 auto 3.5rem;
+}
+
+.why-us-sub {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.why-us-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.why-card {
+  background: #ffffff;
+  border: 1px solid var(--primary-cyan);
+  border-top: 4px solid var(--primary-cyan);
+  border-radius: 16px;
+  padding: 2.2rem 1.8rem;
+  transition: all 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  border-top-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.why-card-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(0, 180, 216, 0.12), rgba(0, 74, 159, 0.08));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-blue);
+  margin-bottom: 1.2rem;
+  border: 1px solid rgba(0, 180, 216, 0.25);
+}
+
+.why-card h3 {
+  color: var(--primary-blue-dark);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.why-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* ── FLOATING SCIENCE MOTIFS ── */
+.science-bg-motifs {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.why-us-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.motif {
+  position: absolute;
+  color: var(--primary-cyan);
+  opacity: 0.06;
+}
+
+.motif-1 {
+  top: -30px;
+  left: -40px;
+  animation: float-slow 9s ease-in-out infinite;
+}
+
+.motif-2 {
+  top: 20%;
+  right: -20px;
+  animation: float-slow 11s ease-in-out infinite reverse;
+}
+
+.motif-3 {
+  bottom: 10%;
+  left: 12%;
+  animation: float-slow 13s ease-in-out infinite;
+}
+
+.motif-4 {
+  top: 55%;
+  right: 20%;
+  animation: float-slow 8s ease-in-out infinite reverse;
+}
+
+.motif-5 {
+  bottom: -20px;
+  right: 5%;
+  animation: float-slow 10s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33%       { transform: translateY(-18px) rotate(4deg); }
+  66%       { transform: translateY(10px) rotate(-3deg); }
+}
+
+@media screen and (max-width: 768px) {
+  .stats-strip-grid { gap: 1rem; }
+  .stat-divider { display: none; }
+  .stat-item { min-width: 140px; }
+}

@@ -357,3 +357,58 @@
 .about-products-btn {
   border-radius: 8px;
 }
+
+/* ── PHARMA FACT STRIP ── */
+.pharma-fact-strip {
+  background: #ffffff;
+  border-top: 1px solid rgba(0, 180, 216, 0.2);
+  border-bottom: 1px solid rgba(0, 180, 216, 0.2);
+  padding: 2rem 0;
+}
+
+.fact-strip-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.fact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #ffffff;
+  border: 1px solid var(--primary-cyan);
+  border-left: 4px solid var(--primary-cyan);
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  color: var(--primary-blue-dark);
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+.fact-badge:hover {
+  border-color: var(--primary-blue);
+  transform: translateY(-3px);
+}
+
+.fact-badge svg {
+  color: var(--primary-cyan);
+  flex-shrink: 0;
+}
+
+.fact-badge strong {
+  color: var(--primary-blue);
+}
+
+/* ── MISSION WITH MOTIFS ── */
+.mission-with-motifs {
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-with-motifs .container {
+  position: relative;
+  z-index: 1;
+}
+

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Activity, ShieldPlus, Beaker, CheckCircle2, PackageCheck } from 'lucide-react';
+import { ArrowRight, Activity, ShieldPlus, Beaker, CheckCircle2, PackageCheck, Brain, Microscope, Pill, Dna, HeartPulse, TrendingUp, Globe, Award, Users } from 'lucide-react';
 import heroBg from '../assets/hero_bg.png';
 import aboutImage from '../assets/about.png';
 import './Home.css';
@@ -84,6 +84,81 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Pharma Stats Trust Strip */}
+      <section className="stats-strip">
+        <div className="container stats-strip-grid">
+          <div className="stat-item">
+            <TrendingUp size={28} className="stat-icon" />
+            <strong>Fastest Growing</strong>
+            <span>CNS segment in India</span>
+          </div>
+          <div className="stat-divider" />
+          <div className="stat-item">
+            <Brain size={28} className="stat-icon" />
+            <strong>Neuro-Psychiatry</strong>
+            <span>Core therapeutic focus</span>
+          </div>
+          <div className="stat-divider" />
+          <div className="stat-item">
+            <Pill size={28} className="stat-icon" />
+            <strong>Nutraceuticals</strong>
+            <span>Innovative wellness brands</span>
+          </div>
+          <div className="stat-divider" />
+          <div className="stat-item">
+            <Globe size={28} className="stat-icon" />
+            <strong>Pan-India</strong>
+            <span>Healthcare access mission</span>
+          </div>
+          <div className="stat-divider" />
+          <div className="stat-item">
+            <Award size={28} className="stat-icon" />
+            <strong>Quality-Led</strong>
+            <span>Process-driven operations</span>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Why Choose Us Section */}
+      <section className="why-us-section section">
+        <div className="science-bg-motifs" aria-hidden="true">
+          <Brain size={160} className="motif motif-1" />
+          <Dna size={120} className="motif motif-2" />
+          <Microscope size={140} className="motif motif-3" />
+          <Pill size={100} className="motif motif-4" />
+          <HeartPulse size={130} className="motif motif-5" />
+        </div>
+        <div className="container">
+          <div className="why-us-header text-center slide-up">
+            <span className="section-eyebrow">Why VNSUS</span>
+            <h2 className="section-title">Built around <span className="text-gradient">patient outcomes</span></h2>
+            <p className="section-text why-us-sub">Every decision we make — from product design to clinical communication — is anchored in what's best for the patient.</p>
+          </div>
+          <div className="why-us-grid">
+            <div className="why-card slide-up" style={{ animationDelay: '0.1s' }}>
+              <div className="why-card-icon"><Brain size={28} /></div>
+              <h3>Neuro-Psychiatry First</h3>
+              <p>Deep focus on CNS care means sharper clinical relevance and stronger doctor trust.</p>
+            </div>
+            <div className="why-card slide-up" style={{ animationDelay: '0.2s' }}>
+              <div className="why-card-icon"><Microscope size={28} /></div>
+              <h3>Research-Backed Quality</h3>
+              <p>Products built on scientific rigor and responsible pharmaceutical standards.</p>
+            </div>
+            <div className="why-card slide-up" style={{ animationDelay: '0.3s' }}>
+              <div className="why-card-icon"><Users size={28} /></div>
+              <h3>People-Driven Execution</h3>
+              <p>Exceptional talent and field teams that build lasting healthcare relationships.</p>
+            </div>
+            <div className="why-card slide-up" style={{ animationDelay: '0.4s' }}>
+              <div className="why-card-icon"><HeartPulse size={28} /></div>
+              <h3>Accessible Healthcare</h3>
+              <p>Making world-class medicine affordable and reachable for every patient in India.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="products-preview section">
         <div className="container products-preview-container slide-up">

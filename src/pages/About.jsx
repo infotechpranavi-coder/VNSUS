@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Beaker, Handshake, HeartPulse, ShieldCheck, Target, Users } from 'lucide-react';
+import { Beaker, Handshake, HeartPulse, ShieldCheck, Target, Users, Brain, Microscope, Dna, Pill, FlaskConical } from 'lucide-react';
 import aboutImage from '../assets/about.png';
 import heroBg from '../assets/hero_bg.png';
 import './About.css';
@@ -100,6 +100,52 @@ const About = () => {
         </div>
       </section>
 
+      {/* Pharma Fact Strip */}
+      <section className="pharma-fact-strip">
+        <div className="container">
+          <div className="fact-strip-inner">
+            <div className="fact-badge">
+              <Brain size={22} />
+              <span><strong>CNS &amp; Mental Health</strong> — our core area of expertise</span>
+            </div>
+            <div className="fact-badge">
+              <FlaskConical size={22} />
+              <span><strong>Nutraceuticals</strong> — science-backed wellness solutions</span>
+            </div>
+            <div className="fact-badge">
+              <ShieldCheck size={22} />
+              <span><strong>Quality First</strong> — every batch, every brand</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mission-section section mission-with-motifs">
+        <div className="science-bg-motifs" aria-hidden="true">
+          <Brain size={180} className="motif motif-1" />
+          <Dna size={130} className="motif motif-2" />
+          <Microscope size={150} className="motif motif-3" />
+          <Pill size={110} className="motif motif-4" />
+        </div>
+        <div className="container mission-grid">
+          <div className="mission-panel slide-up">
+            <Target size={32} />
+            <span className="section-eyebrow">Our mission</span>
+            <h2>Make reliable healthcare more accessible.</h2>
+            <p>
+              We work to bring quality, affordability, and clinical relevance together through focused brands, strong partnerships, and responsible business practices.
+            </p>
+          </div>
+          <div className="mission-panel accent slide-up" style={{ animationDelay: '0.2s' }}>
+            <Handshake size={32} />
+            <span className="section-eyebrow">Our commitment</span>
+            <h2>Earn trust at every touchpoint.</h2>
+            <p>
+              From doctors and distributors to patients and caregivers, we aim to build confidence through consistency, responsiveness, and ethical conduct.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section className="about-products-cta section">
         <div className="container about-products-panel slide-up">
@@ -111,6 +157,7 @@ const About = () => {
           <Link to="/products" className="btn btn-primary about-products-btn">View Products</Link>
         </div>
       </section>
+
       <section className="timeline-section section">
         <div className="container">
           <div className="text-center slide-up">
