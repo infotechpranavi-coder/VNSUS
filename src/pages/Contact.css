@@ -1,3 +1,7 @@
+.contact-header {
+  background-position: center right;
+}
+
 .contact-cards-section {
   position: relative;
   z-index: 20;
@@ -215,4 +219,38 @@
   .contact-card {
     min-height: auto;
   }
+}
+
+.email-link,
+.directions-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  font-weight: 700;
+}
+
+.email-link {
+  margin-top: 1.2rem;
+  color: var(--white);
+}
+
+.email-link:hover {
+  color: var(--primary-cyan);
+}
+
+.directions-link {
+  align-self: flex-start;
+  color: var(--primary-blue);
+  background: var(--white);
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 12px 28px rgba(0, 74, 159, 0.08);
+}
+
+.directions-link:hover {
+  color: var(--white);
+  background: var(--primary-blue);
+  border-color: var(--primary-blue);
 }

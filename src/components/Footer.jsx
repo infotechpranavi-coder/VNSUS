@@ -8,8 +8,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-col">
           <Link to="/" className="footer-logo">
-            <span className="logo-vnsus text-gradient">VNSUS</span>
-            <span className="logo-lifesciences">LIFESCIENCES</span>
+            <img src="/logo.png" alt="VNSUS Logo" className="footer-logo-img" />
           </Link>
           <p className="footer-description">
             A leading people and process-driven pharmaceutical company focused on making healthcare affordable and accessible.

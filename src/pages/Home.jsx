@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Activity, ShieldPlus, Beaker, CheckCircle2 } from 'lucide-react';
 import heroBg from '../assets/hero_bg.png';
+import aboutImage from '../assets/about.png';
 import './Home.css';
 
 const Home = () => {
@@ -105,7 +106,7 @@ const Home = () => {
           <div className="about-preview-image slide-up" style={{ animationDelay: '0.2s' }}>
             <div className="image-wrapper glass-image-wrapper">
               <div className="vibrant-glow"></div>
-              <img src={heroBg} alt="Pharmaceutical Research" className="rounded-image" />
+              <img src={aboutImage} alt="Pharmaceutical research and lifesciences innovation" className="rounded-image" />
             </div>
           </div>
         </div>

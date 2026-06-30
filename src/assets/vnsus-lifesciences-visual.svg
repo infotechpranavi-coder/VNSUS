@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">VNSUS Lifesciences pharmaceutical care visual</title>
+  <desc id="desc">A calm medical illustration with a brain, DNA strand, molecules, medicine capsule, quality shield, and India healthcare access network.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="0.48" stop-color="#e4f6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0068c9"/>
+      <stop offset="1" stop-color="#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="deep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00224f"/>
+      <stop offset="1" stop-color="#004a9f"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c8fff1"/>
+      <stop offset="1" stop-color="#8ae7ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#b7efff" stop-opacity="0.78"/>
+      <stop offset="0.55" stop-color="#dff7ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#004a9f" flood-opacity="0.16"/>
+    </filter>
+    <filter id="smallShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#00224f" flood-opacity="0.14"/>
+    </filter>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#004a9f" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <rect width="1440" height="900" fill="url(#dots)" opacity="0.8"/>
+  <circle cx="790" cy="420" r="420" fill="url(#glow)"/>
+  <path d="M0 620 C180 540 305 690 510 604 C728 512 860 514 1048 600 C1210 674 1318 622 1440 548 L1440 900 L0 900 Z" fill="#dff7ff" opacity="0.76"/>
+  <path d="M0 698 C210 604 334 756 548 676 C780 588 922 656 1110 704 C1260 742 1356 690 1440 640 L1440 900 L0 900 Z" fill="#ffffff" opacity="0.82"/>
+
+  <g opacity="0.75" stroke="#9bdcf4" stroke-width="2" fill="none">
+    <path d="M65 247 L147 206 L226 250 L226 342 L146 384 L65 338 Z"/>
+    <path d="M147 206 L147 384"/>
+    <path d="M226 250 L65 338"/>
+    <path d="M1030 146 L1104 106 L1179 147 L1179 231 L1105 272 L1030 230 Z"/>
+    <path d="M1104 106 L1105 272"/>
+    <path d="M1179 147 L1030 230"/>
+  </g>
+
+  <g transform="translate(620 158)" filter="url(#softShadow)">
+    <path d="M191 24 C272 36 337 94 363 176 C390 263 355 350 286 393 C220 435 128 428 70 377 C7 321 -13 228 21 150 C53 74 113 12 191 24 Z" fill="#ffffff" opacity="0.94"/>
+    <path d="M191 52 C256 62 308 109 329 178 C350 247 323 318 267 353 C214 386 140 382 93 341 C42 296 26 222 53 160 C79 98 129 42 191 52 Z" fill="#eaf9ff"/>
+    <path d="M152 116 C125 104 95 122 91 152 C66 157 51 179 58 203 C35 226 43 264 74 275 C75 311 111 330 140 312 C166 338 210 326 219 290 C254 287 276 253 262 221 C286 191 267 146 228 143 C212 112 178 104 152 116 Z" fill="#ffffff" stroke="#004a9f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M147 122 C152 148 145 166 121 178 M93 154 C119 160 134 177 138 204 M61 207 C90 205 110 216 123 244 M78 276 C105 263 130 267 152 291 M141 312 C148 279 165 259 194 251 M219 291 C202 266 202 241 220 217 M262 221 C235 221 217 207 209 181 M227 144 C206 158 184 158 159 145" stroke="#00b4d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="150" cy="119" r="8" fill="#00b4d8"/>
+    <circle cx="92" cy="154" r="8" fill="#004a9f"/>
+    <circle cx="77" cy="276" r="8" fill="#004a9f"/>
+    <circle cx="219" cy="291" r="8" fill="#00b4d8"/>
+    <circle cx="263" cy="221" r="8" fill="#004a9f"/>
+  </g>
+
+  <g transform="translate(114 204)" stroke-linecap="round" fill="none">
+    <path d="M31 328 C90 248 178 248 237 328 C296 408 384 408 443 328" stroke="#004a9f" stroke-width="9" opacity="0.78"/>
+    <path d="M31 328 C90 408 178 408 237 328 C296 248 384 248 443 328" stroke="#00b4d8" stroke-width="9" opacity="0.78"/>
+    <g stroke="#ffffff" stroke-width="4" opacity="0.98">
+      <path d="M65 292 L65 365"/>
+      <path d="M101 270 L101 385"/>
+      <path d="M139 266 L139 390"/>
+      <path d="M177 287 L177 368"/>
+      <path d="M214 318 L214 337"/>
+      <path d="M260 318 L260 337"/>
+      <path d="M297 287 L297 368"/>
+      <path d="M335 266 L335 390"/>
+      <path d="M373 270 L373 385"/>
+      <path d="M409 292 L409 365"/>
+    </g>
+  </g>
+
+  <g transform="translate(475 382)" filter="url(#smallShadow)">
+    <g stroke="#004a9f" stroke-width="5" fill="#ffffff">
+      <circle cx="80" cy="82" r="16"/>
+      <circle cx="152" cy="38" r="13"/>
+      <circle cx="221" cy="86" r="17"/>
+      <circle cx="192" cy="164" r="14"/>
+      <circle cx="98" cy="172" r="18"/>
+      <circle cx="34" cy="132" r="12"/>
+    </g>
+    <g stroke="#00b4d8" stroke-width="5" stroke-linecap="round">
+      <path d="M94 74 L140 46"/>
+      <path d="M164 47 L207 76"/>
+      <path d="M217 103 L197 151"/>
+      <path d="M178 166 L116 172"/>
+      <path d="M84 161 L45 139"/>
+      <path d="M43 122 L69 92"/>
+    </g>
+    <path d="M286 75 C322 43 379 47 409 83 L335 158 C299 126 282 101 286 75 Z" fill="url(#mint)" stroke="#004a9f" stroke-width="5"/>
+    <path d="M409 83 C441 119 438 176 401 205 L335 158 Z" fill="url(#blue)" stroke="#004a9f" stroke-width="5"/>
+    <path d="M334 158 L366 126" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(932 338)" filter="url(#smallShadow)">
+    <path d="M114 4 L210 45 L210 136 C210 202 170 250 114 276 C58 250 18 202 18 136 L18 45 Z" fill="#ffffff" stroke="#004a9f" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M114 35 L179 63 L179 137 C179 180 153 213 114 235 C75 213 49 180 49 137 L49 63 Z" fill="#e5f8ff"/>
+    <path d="M76 139 L104 166 L157 99" stroke="#00b4d8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="114" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#004a9f">QC</text>
+  </g>
+
+  <g transform="translate(830 586)" filter="url(#smallShadow)">
+    <path d="M51 24 C112 1 183 19 226 71 C274 130 275 218 226 276 C177 335 86 345 25 300 C-32 259 -23 186 31 160 C-5 108 3 44 51 24 Z" fill="#ffffff" opacity="0.94"/>
+    <path d="M69 86 C93 49 152 48 179 82 C221 88 244 136 222 173 C240 213 210 259 165 257 C135 287 81 277 63 237 C19 228 1 176 30 142 C19 119 34 93 69 86 Z" fill="#eaf9ff" stroke="#004a9f" stroke-width="5"/>
+    <circle cx="85" cy="139" r="10" fill="#00b4d8"/>
+    <circle cx="137" cy="95" r="10" fill="#004a9f"/>
+    <circle cx="183" cy="151" r="10" fill="#00b4d8"/>
+    <circle cx="121" cy="205" r="10" fill="#004a9f"/>
+    <path d="M85 139 L137 95 L183 151 L121 205 Z" stroke="#66c8ec" stroke-width="4" fill="none"/>
+    <text x="128" y="331" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#004a9f">CNS Care</text>
+  </g>
+
+  <g transform="translate(208 616)" filter="url(#smallShadow)">
+    <path d="M0 84 C102 8 216 4 334 82" stroke="#bdeeff" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#004a9f">
+      <circle cx="36" cy="68" r="10"/>
+      <circle cx="104" cy="34" r="10"/>
+      <circle cx="182" cy="36" r="10"/>
+      <circle cx="256" cy="56" r="10"/>
+      <circle cx="320" cy="82" r="10"/>
+    </g>
+    <g stroke="#00b4d8" stroke-width="4" stroke-linecap="round">
+      <path d="M36 68 L104 34 L182 36 L256 56 L320 82"/>
+      <path d="M104 34 L130 98"/>
+      <path d="M256 56 L228 112"/>
+    </g>
+    <text x="170" y="151" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#00224f">Accessible Healthcare</text>
+  </g>
+
+  <g transform="translate(1045 143)" opacity="0.86">
+    <g stroke="#00b4d8" stroke-width="4" fill="#ffffff">
+      <circle cx="37" cy="72" r="9"/>
+      <circle cx="106" cy="38" r="9"/>
+      <circle cx="167" cy="75" r="9"/>
+      <circle cx="147" cy="144" r="9"/>
+      <circle cx="73" cy="152" r="9"/>
+    </g>
+    <g stroke="#004a9f" stroke-width="4" stroke-linecap="round">
+      <path d="M45 68 L98 42"/>
+      <path d="M114 43 L159 70"/>
+      <path d="M164 84 L150 135"/>
+      <path d="M138 146 L82 151"/>
+      <path d="M68 145 L40 82"/>
+    </g>
+  </g>
+</svg>

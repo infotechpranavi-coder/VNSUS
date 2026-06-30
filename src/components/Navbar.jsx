@@ -23,10 +23,9 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
-        <Link to="/" className="navbar-logo">
-          <span className="logo-vnsus text-gradient">VNSUS</span>
-          <span className="logo-lifesciences">LIFESCIENCES</span>
-        </Link>
+          <Link to="/" className="navbar-logo">
+            <img src="/logo.png" alt="VNSUS Logo" className="navbar-logo-img" />
+          </Link>
 
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
